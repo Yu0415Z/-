@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated artifacts
+logs/
+chroma_db/
+rag/chroma_db/
+md5.text
+.streamlit/secrets.toml
+data/external/records*.csv
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
